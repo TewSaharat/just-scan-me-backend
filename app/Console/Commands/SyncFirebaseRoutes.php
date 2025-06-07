@@ -32,7 +32,7 @@ class SyncFirebaseRoutes extends Command
         foreach ($data as $sender => $entry) {
             $name_id = match($sender) {
                 'sender1' => 'TEST1-SG-2425-0100-0+000',
-                'sender2' => 'TEST1-SG-2425-0100-0+001', // เพิ่มตามต้องการ
+                'sender2' => 'TEST2-SG-2425-0100-0+000', // เพิ่มตามต้องการ
                 default => null,
             };
 
