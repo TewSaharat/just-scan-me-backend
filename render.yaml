@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: just-scan-me-backend
+    runtime: docker
+    repo: https://github.com/TewSaharat/just-scan-me-backend
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
